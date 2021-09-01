@@ -1,6 +1,9 @@
 import { StyleSheet } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export const style = () => {
+    const { bottom } = useSafeAreaInsets();
+
     return StyleSheet.create({
         container: {
             flex: 1,
@@ -44,6 +47,36 @@ export const style = () => {
             width: 70,
             height: 70,
             tintColor: '#fff',
+        },
+        empty: {
+            textAlign: 'center',
+            marginTop: '30%',
+            fontWeight: 'bold',
+            fontSize: 18,
+            color: '#000'
+        },
+        uploadingOverlay: {
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            bottom: 0,
+            right: 0,
+            backgroundColor: '#0005',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 1
+        },
+        uploadingText: {
+            fontSize: 16,
+            color: '#fff',
+            lineHeight: 26,
+            fontWeight: 'bold'
+        },
+        contentContainerStyle: {
+            paddingBottom: bottom + 10
+        },
+        indicator: {
+            marginTop: '30%'
         }
     });
 }
