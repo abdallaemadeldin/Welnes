@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "796567787327",
+    "project_id": "welnes-506af",
+    "storage_bucket": "welnes-506af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796567787327:android:8eba90157cdecc5979258a",
+        "android_client_info": {
+          "package_name": "com.welnes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796567787327-um1e4k4dc6u0snjial0o9offjeo6e1av.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.welnes",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "796567787327-8jpghj448rpvjj5i68s4c53h1r4i4q0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8-9P7lAxbYrIBIE_tDkTIvIM_KpLLYB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796567787327-8jpghj448rpvjj5i68s4c53h1r4i4q0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
