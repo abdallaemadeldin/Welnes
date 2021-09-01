@@ -50,7 +50,7 @@ export const style = () => {
         },
         empty: {
             textAlign: 'center',
-            marginTop: '30%',
+            marginTop: '10%',
             fontWeight: 'bold',
             fontSize: 18,
             color: '#000'
