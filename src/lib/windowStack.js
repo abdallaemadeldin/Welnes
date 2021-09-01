@@ -12,6 +12,7 @@ export default WindowStack = () => {
         <NavigationContainer>
             <Stack.Navigator initialRouteName="Splash">
                 <Stack.Screen name="Splash" component={Splash} options={{ headerShown: false, animation: "slide_from_bottom" }} />
+                <Stack.Screen name="Home" component={Home} options={{ headerShown: false, animation: "slide_from_bottom" }} />
             </Stack.Navigator>
         </NavigationContainer>
     );
