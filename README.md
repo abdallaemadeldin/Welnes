@@ -58,3 +58,7 @@ Welnes
 
 ## Stack
 This app is built with react-native cli, `react-navigation`, `react-native-firebase`, `react-native-ffmpeg`, `react-native-fs`, `react-native-image-crop-picker`, React-Testing-Library & Jest for testing.`
+
+## UI Design
+
+App is completely responsive and adapts well to all viewports.
