@@ -1,7 +1,7 @@
 name: Deploy-Android-TEST 
 
 on:
-  workflow_dispatch: //Manual trigger.
+  workflow_dispatch:
     
 env:
   APP_CENTER_TOKEN: ${{ secrets.APP_CENTER_TOKEN_MYAPP_ANDROID  }}  
